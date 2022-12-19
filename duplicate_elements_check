@@ -1,0 +1,6 @@
+def duplicates(li):
+    new = []
+    for i in li:
+        if li.count(i)>1 and i not in new:
+            new.append(i)
+    return new
