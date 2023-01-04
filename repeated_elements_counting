@@ -1,0 +1,7 @@
+def repeated(li):   
+    char = set(li)
+    freq = []
+    for i in char:
+        freq.append(li.count(i))
+    dup = dict(zip(char,freq))
+    print(dup)
